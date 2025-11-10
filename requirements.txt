@@ -30,7 +30,6 @@ fonttools==4.59.0
 fsspec==2025.10.0
 gitdb==4.0.12
 GitPython==3.1.45
-htmlmin==0.1.12
 huggingface-hub==0.36.0
 idna==3.10
 ImageHash==4.3.1
@@ -98,7 +97,6 @@ pytest-timeout==2.4.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
 PyWavelets==1.9.0
-pywin32==311
 PyYAML==6.0.2
 pyzmq==27.0.1
 referencing==0.36.2
@@ -145,4 +143,5 @@ xgboost==3.0.5
 xlrd==0.7.1
 xlwt==0.7.2
 ydata-profiling==4.17.0
+
 
