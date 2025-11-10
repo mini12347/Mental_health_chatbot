@@ -1,10 +1,11 @@
 
 import nltk
+
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)   
 nltk.download('stopwords', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
 nltk.download('wordnet', quiet=True)
-
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -109,4 +110,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
