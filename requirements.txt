@@ -30,7 +30,7 @@ fonttools==4.59.0
 fsspec==2025.10.0
 gitdb==4.0.12
 GitPython==3.1.45
-htmlmin==0.1.12
+html5lib==1.1
 huggingface-hub==0.36.0
 idna==3.10
 ImageHash==4.3.1
@@ -145,4 +145,5 @@ xgboost==3.0.5
 xlrd==0.7.1
 xlwt==0.7.2
 ydata-profiling==4.17.0
+
 
