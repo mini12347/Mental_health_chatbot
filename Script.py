@@ -1,17 +1,9 @@
 
-
-try:
-    import nltk
-    nltk.download('punkt', quiet=True)
-    nltk.download('averaged_perceptron_tagger', quiet=True)
-    nltk.download('stopwords', quiet=True)
-    nltk.download('wordnet', quiet=True)
-    from nltk.tokenize import word_tokenize
-    from nltk.corpus import stopwords
-    from nltk.stem import WordNetLemmatizer
-    NLTK_AVAILABLE = True
-except ImportError:
-    NLTK_AVAILABLE = False
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('averaged_perceptron_tagger', quiet=True)
+nltk.download('wordnet', quiet=True)
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -117,3 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
